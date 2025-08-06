@@ -1,5 +1,5 @@
 /**
- * スプレッドシート開いた時にメニューを追加
+ * スプレッドシート開いた時にメニューを追加　バージョンテスト
  */
 function onOpen() {
   const ui = SpreadsheetApp.getUi();
@@ -35,7 +35,7 @@ ID の欠番をチェックします。
 }
 
 /**
- * 転送不良メールのIDチェック機能1
+ * 転送不良メールのIDチェック機能
  */
 function checkMissingIDsToSheet() {
   const ui = SpreadsheetApp.getUi();
