@@ -35,7 +35,7 @@ ID の欠番をチェックします。
 }
 
 /**
- * 転送不良メールのIDチェック機能
+ * 転送不良メールのIDチェック機能1
  */
 function checkMissingIDsToSheet() {
   const ui = SpreadsheetApp.getUi();
